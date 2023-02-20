@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font: 100% / 1.5 Inconsolata, monospace;
+    color: hsl(230, 100%, 95%);
+    background:linear-gradient(135deg, #2f1b28, #b67559)
+    
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
+      0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
+  }
+  
+  main {
+    margin: 2rem auto 4rem;
+    width: 90%;
+    max-width: 70rem;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    max-width: 75ch;
+  }
+
+  #h3{
+    color: aqua;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  p
+  p:hover, h3:hover, a:hover {
+    background-color: rgb(255, 162, 0);
+  }
+  h1:hover{
+    background-color: rgb(255, 0, 13);
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
